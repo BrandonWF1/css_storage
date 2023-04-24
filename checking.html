@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Sharp:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Инвентаризация</title>
+</head>
+
+<body>
+  
+  
+  <div class="web-container">
+    <aside>
+      <div class="aside__top">
+        <div class="aside__logo">
+          <img src="img/logo.png" alt="logo">
+          <h2 class="text-muted">
+            <span class="text-border"><span class="color-primary">TECh </span><span class="color-success">
+                Inc.</span></span>
+          </h2>
+        </div>
+        <div class="aside__close" id="close-btn">
+          <span class="material-symbols-sharp">
+            close
+          </span>
+        </div>
+      </div>
+      <div class="aside__sidebar">
+        <a href="index.html" class="active" >
+          <span class="material-symbols-sharp">
+            grid_view
+          </span>
+          <h3>Оборудование</h3>
+        </a>
+
+
+        <a href="add.html">
+          <span class="material-symbols-sharp">
+            add_circle
+          </span>
+          <h3>Добавить оборудование</h3>
+        </a>
+
+        <a href="admin.html">
+          <span class="material-symbols-sharp">
+            admin_panel_settings
+          </span>
+          <h3>Администрирование</h3>
+        </a>
+
+        <a href="about.html">
+          <span class="material-symbols-sharp">
+            info
+          </span>
+          <h3>О сайте</h3>
+        </a>
+        
+      
+
+        <a href="#">
+          <span class="material-symbols-sharp">
+            logout
+          </span>
+          <h3>Выйти</h3>
+        </a>
+      </div>
+    </aside>
+
+    <main>
+      <div class="web__head">
+        <div class="header__title"><h1>Инвентаризация</h1></div>
+        <div class="right-side">
+          <div class="top">
+            <button id="menu-btn">
+              <span class="material-symbols-sharp">
+                menu
+              </span>
+            </button>
+    
+            <div class="profile">
+              <div class="info">
+                <p>Артем</p>
+                <small class="text-muted">Администратор</small>
+              </div>
+              <div class="profile-photo">
+                <img src="img/profile-1.jpg" alt="photo">
+              </div>
+            </div>
+          </div>
+      </div>
+      </div>
+
+      <div class="main__checklist">
+        <h2>Регламентированный&nbsp;список&nbsp;для&nbsp;инвентаризации </h2>
+        <table>
+          <thead>
+            <th>Название</th>
+            <th>Серийный номер</th>
+            <th>По учету</th>
+            <th>По факту</th>
+            <th>Статус</th>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Станок H52</td>
+              <td>d322j4</td>
+              <td><input type="checkbox" class="input-check"></td>
+              <td><input type="checkbox" class="input-check"></td>
+              <td class="color-success">Имеется</td>
+            </tr>
+            <tr>
+              <td>Станок A3A3</td>
+              <td>a3a3a3</td>
+              <td></td>
+              <td></td>
+              <td class="color-warning">Не проверен</td>
+            </tr>
+            <tr>
+              <td>Станок H52</td>
+              <td>d322j4</td>
+              <td></td>
+              <td></td>
+              <td class="color-danger">Отсутствует</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <div class="checking-buttons">
+        <button class="checking-btn"><h3>Удалить</h3></button>
+        <button class="checking-btn"><h3>Принять</h3></button>
+      </div>
+    </main>
+    <!-- ПРОФИЛЬ -->
+
+    
+  </div>
+</body>
+
+</html>
